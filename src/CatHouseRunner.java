@@ -1,13 +1,11 @@
 public class CatHouseRunner {
     public static void main(String[] args) {
 
-        // TASK 1: write your code here!
-
-
-
-
-
-
+        Cat sesame = new Cat("sesame", 6);
+        Cat peanut = new Cat("peanut", 2);
+        CatHouse ch1 = new CatHouse(sesame, peanut, "lia");
+        System.out.println(ch1.houseInfo());
+        ch1.rollCall();
         // TASK 2-3: write the methods as specified, then write code below to
         // test your new methods using the objects you created above in Task 1
 
